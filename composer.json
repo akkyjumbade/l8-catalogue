@@ -1,0 +1,30 @@
+{
+    "name": "akshay/l8-admin",
+    "description": "Laravel 8 Admin package",
+    "type": "library",
+    "require": {
+      "php": "^7.1",
+      "laravel/ui": "^3.0",
+      "sentry/sentry-laravel": "^2.0@dev",
+      "livewire/livewire": "^2.2"
+   },
+   "autoload": {
+        "psr-4": {
+            "AkshayJumbade\\Admin\\": "src"
+        }
+   },
+    "authors": [
+        {
+            "name": "akshay",
+            "email": "akkyjumbade@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AkshayJumbade\\Admin\\AdminServiceProvider"
+            ]
+        }
+    }
+}
